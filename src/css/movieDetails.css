@@ -1,0 +1,16 @@
+.movieDetailsContainer{
+    margin: 20px;
+    padding: 10px;
+}
+
+.moive_img {
+    width: 300px;    
+  }
+
+.movie_detail_overview {
+    width: 500px;
+}
+
+.input_textbox {
+    border: solid 1px #ccc;
+}

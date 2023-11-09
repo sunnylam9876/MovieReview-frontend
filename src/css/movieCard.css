@@ -1,0 +1,119 @@
+.moviePageContainer {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.movieSearchContainer {
+  display: block;
+  margin: 2em;
+  flex: 30%;
+}
+
+.movieFilter {
+  width: 90%;
+  display: block;
+  border-top: 1px solid #eee;
+  padding: 5px;
+}
+
+.two_column {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.inputbox {
+  width: 70%;
+}
+
+.cardContainer {
+  width: 100%;
+  /* max-width: 1100px; */
+  margin: 1.5em;
+  flex: 70%;
+  
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.card {
+  box-sizing: border-box;
+  background: #f7f7fc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-rows: 5fr 1fr;
+}
+
+.card:hover{
+  transform: translateY(-0.5rem);
+  box-shadow: 0.5rem 0.75rem 1.5rem #bbbbbb;
+  transition: 0.2s;
+}
+
+.cardContent {
+  text-align: center;
+  /* padding: 1em; */
+  /* background-color: #000; */
+  margin-bottom: 0.5em;
+  grid-row: 1; 
+}
+
+.cardFooter {
+  /* margin: 2rem 0; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-row:2;
+}
+
+/* h2 {
+  font-size: 2em;
+  margin-bottom: 8px;
+  color: #384047;
+  line-height: 1.2;
+  margin-top: 5px;
+} */
+
+.cardTitle {
+  margin-top: 1em;
+  margin-bottom: 0;
+  color: #384047;
+}
+
+/* p {
+  color: #222;
+  font-size: 1em;
+  margin-bottom: 15px;
+  line-height: 1.4;
+} */
+
+.card_img {
+  width: 200px;
+  cursor: pointer;  
+}
+
+.review_icon {
+  /* position: absolute; */
+  /* right: 0; */
+  margin: 1rem;
+  font-size: 2rem;
+  /* transition: 0.2s; */
+  cursor: pointer;
+}
+
+.starStyle {
+  color: orange;
+  font-size: 1rem;
+}
+
+a {
+  color: #3b80d1;
+}
+
+.movieSearchBox {
+  margin-top: 5px;
+}

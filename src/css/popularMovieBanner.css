@@ -1,0 +1,68 @@
+/* * {
+    border: 1px solid red;
+} */
+
+.popular-movie-banner-empty {
+    text-align: center;
+    margin-top: 40px;
+    height: 200px;
+}
+
+.popular-movie-banner-container {
+    /* margin: 1vw; */
+    min-height: 450px;
+    /* background-color: aqua; */
+}
+
+.popular-movie-banner-heading {
+    color: black;
+    display: block;
+    text-align: center;
+}
+
+.popular-movie-banner {
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.movie-card-simple {
+    width: 14vw;
+    margin: 5px;
+    max-width: 200px;
+    /* background-color: rgb(217, 255, 251); */
+}
+
+/* * a {
+    text-decoration: 'none';
+    outline: none;
+} */
+
+.movie-poster img {
+    width: 100%;
+    height: auto;
+}
+
+.movie-title {
+    text-align: center;
+    margin-top: 10px 2px 0px 2px;
+    /* font-weight: 100; */
+    color: #384047;
+    font-size: 1.17em;
+    /* background-color: wheat; */
+    /* font-style: bold; */
+}
+
+.banner-buttons {
+    text-align: center;
+}
+
+.banner-buttons button {
+    background-color: #54606b;
+    border-radius: 5px;
+}
+
+.banner-buttons button[disabled] {
+    background-color: #dbdbdb;
+}

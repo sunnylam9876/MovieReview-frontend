@@ -1,0 +1,41 @@
+.signup_page_body {
+    display:grid;
+    justify-content: center; /* Align horizontally */
+
+}
+
+
+.signup_box {
+    width: 350px;
+    display: grid;
+    border:1px #ddd solid;
+    background-color: white;
+    justify-content: center; /* Align horizontally */
+    align-items: center; /* Align vertically */
+    padding: 10px;    
+}
+
+.login {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1rem;
+
+}
+
+input {
+    margin-bottom: 2em;
+}
+
+button {
+    margin-bottom: 1em;
+
+}
+
+.login-error {
+    color: red;
+}
+
+.input_textbox {
+    border: solid 1px #ccc;
+}

@@ -1,0 +1,85 @@
+.reviewPageContainer {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.reviewCardContainer {
+  /* max-width: 1100px; */
+  margin: 1.5em;
+  flex: 50%;
+}
+
+.reviewCardHeading h2 {
+  margin-bottom: 0.2em;
+}
+
+.reviewCard {
+  box-sizing: border-box;
+  background: #f7f7fc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+  display: grid;
+  margin: 40px;
+  width: 550px;
+}
+
+.reviewCard:hover {
+  transform: translateY(-0.06rem);
+  box-shadow: 0.2rem 0.45rem 0.5rem #bbbbbb;
+  transition: 0.1s;
+}
+
+.movieDetailsContainer {
+  margin: 20px;
+  padding: 10px;
+  flex: 50%;
+  width: 550px;
+}
+
+.noReview {
+  width: 450px;
+}
+
+.login-status {
+  text-align: left;
+  margin-right: 30px;
+}
+
+.rating_submit {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.voteContainer {
+  display: flex;
+  align-items: center;
+  margin: 8px 0px 0px 0px;
+}
+
+.voteButtons {
+  display: inline-block;
+  gap: 10px;
+  background-color: rgb(180, 180, 180);
+  border-radius: 5px;
+}
+
+.voteButtons:hover {
+  transform: translateY(-0.06rem);
+  box-shadow: 0.2rem 0.45rem 0.5rem #cad0d4;
+  transition: 0.1s;
+}
+
+.voteCounts {
+  display: inline-block;
+  gap: 10px;
+}
+
+.upvoted {
+  background-color: rgb(32, 199, 32);
+}
+
+.downvoted {
+  background-color: red;
+}
